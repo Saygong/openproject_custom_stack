@@ -1,2 +1,14 @@
+#Draw.io backip files
 *.bkp
+
+#Env files
 *.env
+
+#Postgres database files
+/source/postgres/pgdata/*
+
+#Nginx logs
+/source/nginx/logs/*
+
+#Openproject asset files
+/source/openproject/assets/*
