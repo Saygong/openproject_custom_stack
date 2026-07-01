@@ -1,4 +1,8 @@
 #version: '3.9'
+
+
+compose_project_name: openproject_custom_stack
+
 x-op-restart-policy: &restart_policy
   restart: unless-stopped
 
