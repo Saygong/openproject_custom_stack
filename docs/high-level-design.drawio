@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="1ONraHeFso7z_lpRmVTc">
+    <mxGraphModel dx="1030" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="argN9uzhy3_txjCHoNrO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="230" width="440" x="190" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Docker Internal network" vertex="1">
+          <mxGeometry height="30" width="140" x="190" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-8" edge="1" parent="1" source="argN9uzhy3_txjCHoNrO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="argN9uzhy3_txjCHoNrO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;nginx&lt;/font&gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Reverse Proxy&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;postgres&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;database&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-9" edge="1" parent="1" source="argN9uzhy3_txjCHoNrO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="argN9uzhy3_txjCHoNrO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;openproject&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;entire application&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-7" edge="1" parent="1" source="argN9uzhy3_txjCHoNrO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="argN9uzhy3_txjCHoNrO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-6" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shape=mxgraph.alibaba_cloud.user;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="380" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;strokeWidth=1;" value="TCP 80 HTTP" vertex="1">
+          <mxGeometry height="12" width="94" x="366" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;strokeWidth=1;" value="TCP 8080 HTTP" vertex="1">
+          <mxGeometry height="12" width="94" x="367" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="argN9uzhy3_txjCHoNrO-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;strokeWidth=1;" value="TCP 5432 POSTGRES" vertex="1">
+          <mxGeometry height="12" width="73" x="376.5" y="354" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
